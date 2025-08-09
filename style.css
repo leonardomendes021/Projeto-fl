@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+
+/*
+
+#1F60B5
+#2E578C
+#0061E0
+#304561
+#242C36
+#2B2E33
+
+.libertinus-mono-regular {
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+:root {
+    --cor01: #1F60B5;
+    --cor02: #2E578C;
+    --cor03: #0061E0;
+    --cor04: #304561;
+    --cor05: #242C36;
+    --cor06: #2B2E33;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+
+body {
+    background-color: var(--cor01);
+}
+
+header {
+    background-color: var(--cor03);
+}
+
+header h1 {
+    font-family: "Libertinus Mono", monospace;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+
+nav{
+    text-align: center;
+    background-color:var(--cor02);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color: var(--cor05);
+    text-decoration: none;
+    margin: 3px;
+}
+
+a:hover {
+    color: var(--cor4);
+    text-decoration:underline
+}
+
+    main{
+        background-color: white;
+        margin: auto;
+        max-width: 800px;
+        min-width: 320px;
+
+        }
+
+    main img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    article {
+        padding-left: 15px;
+    }
+
+    article h1 {
+        text-align: center;
+    }
+
+    article div {
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
